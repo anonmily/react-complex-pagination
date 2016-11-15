@@ -1,8 +1,8 @@
 {
   "name": "react-complex-pagination",
-  "version": "0.0.2",
+  "version": "v0.0.4",
   "description": "React complex pagination component",
-  "main": "es6/pagination.jsx",
+  "main": "./es5/pagination.js",
   "scripts": {
     "test": "make test"
   },
