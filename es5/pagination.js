@@ -40,18 +40,23 @@ var Pagination = function (_PureComponent) {
 	_inherits(Pagination, _PureComponent);
 
 	function Pagination() {
+		var _ref;
+
+		var _temp, _this, _ret;
+
 		_classCallCheck(this, Pagination);
 
-		return _possibleConstructorReturn(this, (Pagination.__proto__ || Object.getPrototypeOf(Pagination)).apply(this, arguments));
+		for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+			args[_key] = arguments[_key];
+		}
+
+		return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Pagination.__proto__ || Object.getPrototypeOf(Pagination)).call.apply(_ref, [this].concat(args))), _this), _this.go_page = function (event) {
+			var page = event.target.getAttribute('data-page');
+			_this.props.goPage(page);
+		}, _temp), _possibleConstructorReturn(_this, _ret);
 	}
 
 	_createClass(Pagination, [{
-		key: 'go_page',
-		value: function go_page(event) {
-			var page = event.target.getAttribute('data-page');
-			this.props.goPage(page);
-		}
-	}, {
 		key: 'render',
 		value: function render() {
 			var _this2 = this;

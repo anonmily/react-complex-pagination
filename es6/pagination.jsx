@@ -16,7 +16,7 @@ export default class Pagination extends PureComponent{
 		frontPagesMax: React.PropTypes.number,
 		backPagesMax: React.PropTypes.number
 	}
-	go_page(event){
+	go_page = (event) => {
 		let page = event.target.getAttribute('data-page')
 		this.props.goPage(page)
 	}
