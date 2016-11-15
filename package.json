@@ -1,10 +1,14 @@
 {
   "name": "react-complex-pagination",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React complex pagination component",
   "main": "es6/pagination.jsx",
   "scripts": {
     "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anonmily/react-complex-pagination"
   },
   "author": "Michelle Liu",
   "license": "ISC",
