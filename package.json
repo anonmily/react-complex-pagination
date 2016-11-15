@@ -1,0 +1,22 @@
+{
+  "name": "react-complex-pagination",
+  "version": "0.0.0",
+  "description": "React complex pagination component",
+  "main": "es6/pagination.jsx",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Michelle Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^17.0.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "jest": "^17.0.1",
+    "jsdom": "^9.8.3",
+    "mocha-jsdom": "^1.1.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-test-renderer": "^15.3.2"
+  }
+}
